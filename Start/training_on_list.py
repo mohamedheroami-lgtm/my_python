@@ -1,0 +1,5 @@
+ga = input("Enter your friends name after every single one add comma :\n")
+ha = ga.split(",")
+print(ha)
+print(type(ha))
+print (len(ha))

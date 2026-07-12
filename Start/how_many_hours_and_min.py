@@ -1,0 +1,5 @@
+fa = input ("How many min do you have ?\n")
+rd = float (fa)
+ga = (rd//60)
+na = (rd%60)
+print ("You have " + str(ga) + (" hour and ") + str(na) + " min")
