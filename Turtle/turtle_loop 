@@ -1,0 +1,30 @@
+from turtle import  Turtle , Screen
+omer = Turtle()
+window = Screen()
+omer.shape("classic")
+omer.color("red")
+omer.speed("fast")
+#الفكره انو عشان يعمل شكل من التلاته ديل بلف 360 درجه فا لو عايز مربع اخليه يلف 90 اربع مرات ومثلث 120 3 مرات ودائره 1 360 درجه
+#لوب مربع
+#for _ in range(4):
+    #omer.forward(300)
+    #omer.left(90)
+
+
+#لوب مثلث
+#for _ in range(3):
+  #omer.left(60)
+  #omer.forward(150)
+  #omer.left(60)
+
+#لوب بيرسم دائره
+for _ in range(360):
+ #omer.forward(1)
+ #omer.left(1)
+  
+
+#لو عايز ارسم دائره بدون لوب
+omer.circle(100)  
+  
+  
+window.exitonclick()
